@@ -4,10 +4,10 @@ import requests
 url = 'http://localhost:5000/payed' 
 
 # Informações do ticket
-ticket01 = {
-    'numero': 3,
-    'valor': 20,
-    'tempo': '6h'
+ticket = {
+    'numero': 1,
+    'valor': 12,
+    'tempo': '4h'
 }
 
 # Cadastrando ticket

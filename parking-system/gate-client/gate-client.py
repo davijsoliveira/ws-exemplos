@@ -2,7 +2,7 @@ import requests
 
 def listar_tickets():
     try:
-        url = 'http://localhost:5000/list'  # Altere a URL se necessário
+        url = 'http://localhost:5000/list' 
         response = requests.get(url)
 
         if response.status_code == 200:
