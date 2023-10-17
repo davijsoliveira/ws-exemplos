@@ -5,9 +5,9 @@ url = 'http://localhost:5000/payed'
 
 # Informações do ticket
 ticket01 = {
-    'numero': 4,
-    'valor': 15,
-    'tempo': '5h'
+    'numero': 3,
+    'valor': 20,
+    'tempo': '6h'
 }
 
 # Cadastrando ticket
