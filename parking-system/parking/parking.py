@@ -26,6 +26,14 @@ def list():
     except Exception as e:
         return jsonify({'erro': str(e)})
 
+@app.route('/check/<int:numero>', methods=['GET'])
+def check_ticket(numero):
+    try:
+        for ticket in tickets:
+            if ticket['numero'] == numero:
+                return jsonify(ticket)
+    except Exception as e:
+        return jsonify({'erro': str(e)})
 
 if __name__ == '__main__':
     app.run(debug=True)
